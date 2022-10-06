@@ -10803,3 +10803,7 @@ textarea.form-control-lg {
   font-weight: 600;
   color: rgb(48, 48, 48);
 }
+
+.map {
+  height: 50vh;
+}
