@@ -1,0 +1,8 @@
+@mixin sidebar(){
+    font-size: 1rem;
+    background-color: $light;
+    height: 100vh;
+    text-decoration: none;
+    color: $white;
+    line-height: 3rem;
+}

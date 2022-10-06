@@ -8,6 +8,69 @@
     <title>HOME | Sass esercitazione</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ALL SERVICE srl</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servizi.html">Servizi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./chi-siamo.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacts.html">Contatti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="row d-flex justify-content-between">
+        <div class="col-10 row justify-content-end">
+          <div class="col-4 border-2 border-end m-3">
+            <h2 class="title mt-3">Titolo Sezione</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, a magni. Consequatur vitae deserunt recusandae obcaecati facilis. Quisquam excepturi maxime doloribus eius nesciunt
+              exercitationem ducimus neque cum incidunt provident. Modi!
+            </p>
+          </div>
+
+          <div class="col-5 m-3">
+            <div class="card my-3" style="width: 100%">
+              <img src="https://picsum.photos/200/100" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="./servizi.html" class="btn btn-primary">Pagina Servizi</a>
+              </div>
+            </div>
+            <div class="card my-3" style="width: 100%">
+              <img src="https://picsum.photos/200/100" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="./servizi.html" class="btn btn-primary">Pagina Servizi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 sidebar bg-sidebar">
+          <a href="./servizi.html" class="page-link mt-2 border-1 border-bottom border-white">Servizi</a>
+          <a href="./chi-siamo.html" class="page-link mt-2 border-1 border-bottom border-white">Chi siamo</a>
+          <a href="./contacts.html" class="page-link mt-2 border-1 border-bottom border-white">Contatti</a>
+        </div>
+      </div>
+    </main>
+
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
